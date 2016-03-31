@@ -15,45 +15,45 @@
   -->
 
 <resources>
-    <string name="app_name">TO-DO-DataBinding</string>
-    <string name="add_task">New TO-DO</string>
-    <string name="edit_task">Edit TO-DO</string>
-    <string name="task_marked_complete">Task marked complete</string>
-    <string name="task_marked_active">Task marked active</string>
-    <string name="loading_tasks_error">Error while loading tasks</string>
-    <string name="completed_tasks_cleared">Completed tasks cleared</string>
+    <string name="app_name">TugasApp-DataBinding</string>
+    <string name="add_task">Tambah Tugas</string>
+    <string name="edit_task">Ubah Tugas</string>
+    <string name="task_marked_complete">Tugas ditandai selesai</string>
+    <string name="task_marked_active">Tugas ditandai aktif</string>
+    <string name="loading_tasks_error">Kesalahan saat memuat tugas</string>
+    <string name="completed_tasks_cleared">Tugas selesai dikerjakan</string>
     <string name="menu_filter">Filter</string>
-    <string name="menu_clear">Clear completed</string>
-    <string name="menu_delete_task">Delete task</string>
-    <string name="navigation_view_header_title">TO-DOs</string>
-    <string name="title_hint">Title</string>
-    <string name="description_hint">Enter your TO-DO here.</string>
-    <string name="empty_task_message">TO DOs cannot be empty</string>
-    <string name="successfully_saved_task_message">TO-DO saved</string>
-    <string name="list_title">TO-DO List</string>
-    <string name="statistics_title">Statistics</string>
-    <string name="statistics_no_tasks">You have no tasks.</string>
-    <string name="statistics_active_tasks">Active tasks:</string>
-    <string name="statistics_completed_tasks">Completed tasks:</string>
-    <string name="statistics_error">Error loading statistics.</string>
-    <string name="no_data">No data</string>
-    <string name="loading">LOADING</string>
+    <string name="menu_clear">Bersih tugas</string>
+    <string name="menu_delete_task">Hapus tugas</string>
+    <string name="navigation_view_header_title">Tugas</string>
+    <string name="title_hint">Judul</string>
+    <string name="description_hint">Masukan tugas disini</string>
+    <string name="empty_task_message">Tugas tidak boleh kosong</string>
+    <string name="successfully_saved_task_message">Tugas tersimpan</string>
+    <string name="list_title">Daftar tugas</string>
+    <string name="statistics_title">Statistik</string>
+    <string name="statistics_no_tasks">Anda tidak memiliki tugas.</string>
+    <string name="statistics_active_tasks">Tugas Aktif:</string>
+    <string name="statistics_completed_tasks">Tugas terselesaikan:</string>
+    <string name="statistics_error">Kesalahan memuat statistik.</string>
+    <string name="no_data">Tidak ada data</string>
+    <string name="loading">MEMUAT</string>
 
     <string-array name="list_tasks_array">
         <item>@string/nav_all</item>
         <item>@string/nav_active</item>
         <item>@string/nav_completed</item>
     </string-array>
-    <string name="nav_all">All</string>
-    <string name="nav_active">Active</string>
-    <string name="nav_completed">Completed</string>
-    <string name="label_all">All TO-DOs</string>
-    <string name="label_active">Active TO-DOs</string>
-    <string name="label_completed">Completed TO-DOs</string>
-    <string name="no_tasks_all">You have no TO-DOs!</string>
-    <string name="no_tasks_active">You have no active TO-DOs!</string>
-    <string name="no_tasks_completed">You have no completed TO-DOs!</string>
-    <string name="no_tasks_add">Add a TO-DO item +</string>
+    <string name="nav_all">Semua</string>
+    <string name="nav_active">Aktif</string>
+    <string name="nav_completed">Selesai</string>
+    <string name="label_all">Semua tugas</string>
+    <string name="label_active">Tugas aktif</string>
+    <string name="label_completed">Tugas selesai</string>
+    <string name="no_tasks_all">Anda tidak memiliki tugas!</string>
+    <string name="no_tasks_active">Anda tidak memiliki tugas aktif!</string>
+    <string name="no_tasks_completed">Anda tidak memiliki tugas selesai!</string>
+    <string name="no_tasks_add">Tambahkan item tugas +</string>
     <string name="refresh">Refresh</string>
 
 </resources>
