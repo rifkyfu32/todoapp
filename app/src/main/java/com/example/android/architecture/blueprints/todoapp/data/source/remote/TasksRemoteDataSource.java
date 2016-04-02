@@ -40,8 +40,9 @@ public class TasksRemoteDataSource implements TasksDataSource {
 
     static {
         TASKS_SERVICE_DATA = new LinkedHashMap<>(2);
-        addTask("Build tower in Pisa", "Ground looks good, no foundation work required.");
-        addTask("Finish bridge in Tacoma", "Found awesome girders at half the cost!");
+        addTask("Gobelokin Isan", "Isan ke logok.");
+        addTask("Maido Isan", "Weruh wajahe pengene maido!");
+        addTask("Ngantemi Isan", "Ngantemi Isan ojo lali!");
     }
 
     public static TasksRemoteDataSource getInstance() {

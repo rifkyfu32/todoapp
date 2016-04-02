@@ -39,8 +39,8 @@ public class StatisticsPresenter implements StatisticsContract.Presenter {
 
     public StatisticsPresenter(@NonNull TasksRepository tasksRepository,
                                @NonNull StatisticsContract.View statisticsView) {
-        mTasksRepository = checkNotNull(tasksRepository, "tasksRepository cannot be null");
-        mStatisticsView = checkNotNull(statisticsView, "StatisticsView cannot be null!");
+        mTasksRepository = checkNotNull(tasksRepository, "tugas tidak boleh kosong");
+        mStatisticsView = checkNotNull(statisticsView, "StatistikView tidak boleh kosong!");
     }
 
     @Override

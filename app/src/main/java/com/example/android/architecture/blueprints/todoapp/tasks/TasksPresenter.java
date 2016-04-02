@@ -46,8 +46,8 @@ public class TasksPresenter implements TasksContract.Presenter {
     private boolean mFirstLoad = true;
 
     public TasksPresenter(@NonNull TasksRepository tasksRepository, @NonNull TasksContract.View tasksView) {
-        mTasksRepository = checkNotNull(tasksRepository, "tasksRepository cannot be null");
-        mTasksView = checkNotNull(tasksView, "tasksView cannot be null!");
+        mTasksRepository = checkNotNull(tasksRepository, "tugas tidak boleh kosong");
+        mTasksView = checkNotNull(tasksView, "tugasView tidak boleh kosong!");
 
         mTasksView.setPresenter(this);
     }

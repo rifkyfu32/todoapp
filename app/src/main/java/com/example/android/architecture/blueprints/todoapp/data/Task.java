@@ -151,6 +151,6 @@ public final class Task {
 
     @Override
     public String toString() {
-        return "Task with title " + mTitle;
+        return "Tugas dengan judul " + mTitle;
     }
 }
